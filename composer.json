@@ -1,0 +1,22 @@
+{
+  "name": "codexten/php-hosts",
+  "description": "php hosts file manager",
+  "keywords": [
+    "hosts",
+    "codexten"
+  ],
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "codexten\\hosts\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "hosts": "src/config/hosts.php"
+    }
+  }
+}
